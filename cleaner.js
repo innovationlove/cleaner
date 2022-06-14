@@ -8,7 +8,7 @@ if (Meteor.isServer) {
     }
 
     options = options || {};
-    var excludedCollections = ['system.indexes'];
+    var excludedCollections = ['system.indexes', 'system.views'];
     if (options.excludedCollections) {
       excludedCollections = excludedCollections.concat(options.excludedCollections);
     }
@@ -33,14 +33,14 @@ if (Meteor.isServer) {
     }
   });
 
-  resetDatabase = function(options, callback) {
+  resetDatabase = function (options, callback) {
     _resetDatabase(options);
     if (typeof callback === 'function') { callback(); }
   }
 
 }
 if (Meteor.isClient) {
-  resetDatabase = function(options, callback) {
+  resetDatabase = function (options, callback) {
     Meteor.call('xolvio:cleaner/resetDatabase', options, callback);
   }
 }
