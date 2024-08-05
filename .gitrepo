@@ -1,12 +1,12 @@
 ; DO NOT EDIT (unless you know what you are doing)
 ;
 ; This subdirectory is a git "subrepo", and this file is maintained by the
-; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
 ;
 [subrepo]
 	remote = git@github.com:innovationlove/cleaner.git
 	branch = master
 	commit = b433f97bdaf7d45fce4f47b1bce7f16d4ceb5c5a
-	parent = dbda250823d5c5ee57fbeae9a4954f771aa08dbe
+	parent = 98becb33f76bb4a101139120ff3347ecfa8b343a
 	method = merge
 	cmdver = 0.4.7
