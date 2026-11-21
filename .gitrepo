@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github.com:innovationlove/cleaner.git
 	branch = master
-	commit = 9fed0050d9351d602b2b94f61eadc6e35dfe0cc4
-	parent = e628daae894ceaaf7ceaf24f657ce673222272cd
+	commit = 922947c8d11a97a1aee986941f51d06bd4961e88
+	parent = a0e16b838fa7eb144b2f4ba5280e014210447b30
 	method = merge
 	cmdver = 0.4.9
